@@ -1,0 +1,296 @@
+body {
+  width: 100%;
+  background: url("background.png") no-repeat fixed center;
+  background-size: 111%;
+}
+
+header {
+  margin: 0;
+  width: 100%;
+  height: 850px;
+}
+
+nav {
+  position: fixed;
+  text-align: center !important;
+  background: #ffffff;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+nav > ul > li {
+  padding: 20px 20px;
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #000000;
+  font-family: "Major Mono Display", monospace;
+  font-size: 20px;
+}
+
+nav > ul > li:hover {
+  /* ADD WEBKIT */
+  transform: rotate(-180deg);
+}
+
+#msg {
+  color: #000000;
+  font-size: 40px;
+  padding: 25% 5%;
+  float: right;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  width: 100%;
+  height: 2500px;
+}
+
+.b1 {
+  background: #fafafa;
+  width: 90%;
+  height: 500px;
+  margin: 50px 0px;
+  float: left;
+}
+
+table {
+  padding: 40px;
+  margin: 80px 40px;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+i {
+  font-size: 50px;
+}
+
+.jquery {
+  width: 50px;
+  height: 50px;
+}
+
+.boot {
+  width: 45px;
+  height: 45px;
+}
+
+.redux {
+  width: 80px;
+  height: 60px;
+}
+
+.b2 {
+  background: #fafafa;
+  width: 90%;
+  height: 500px;
+  margin: 50px 0px;
+  float: right !important;
+}
+
+.projects {
+  padding-top: 86px;
+  padding-left: 40px;
+}
+
+figure.display {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 21.5%;
+  height: 21.5%;
+  color: #646464;
+  text-align: center;
+  border-radius: 50%;
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+}
+
+.projectLi {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  text-align: start;
+}
+
+figure.display * {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+figure.display img {
+  width: 140%;
+  opacity: 0.2;
+}
+
+figure.display figcaption {
+  position: absolute;
+  margin: 65px 40px;
+  display: inline-block;
+  padding: 5px 5px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+figure.display:before {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: "";
+  background: #d4d4d4;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(110deg) translateY(-50%);
+  transform: rotate(110deg) translateY(-50%);
+}
+
+figure.display.overlay {
+  background: #f1f1f1;
+}
+
+figure.display:hover img,
+figure.display.hover img {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+figure.display:hover figcaption,
+figure.display.hover figcaption {
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+}
+
+figure.display:hover:before,
+figure.display.hover:before {
+  -webkit-transform: rotate(110deg) translateY(-150%);
+  transform: rotate(110deg) translateY(-150%);
+}
+
+.b3 {
+  background: #fafafa;
+  width: 90%;
+  height: 500px;
+  margin: 50px 0px;
+  float: left;
+}
+
+.aboutPic {
+  border-radius: 50%;
+  width: 385px;
+  height: 350px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.b4 {
+  background: #fafafa;
+  width: 90%;
+  height: 500px;
+  margin: 50px 0px;
+  float: right !important;
+}
+
+form {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+
+input {
+  width: 370px;
+  height: 30px;
+  margin: 15px 0px;
+  border-bottom: 1px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: #fafafa;
+}
+
+input::placeholder {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.message {
+  /* fix placeholder location */
+  height: 100px;
+  border: 1px solid #000000;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  width: 370px;
+  height: 30px;
+  box-shadow: none;
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid black;
+}
+
+.fa-angle-double-right {
+  font-size: 12px;
+}
+
+button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.sectionHead {
+  font-family: "Major Mono Display", monospace;
+  float: right;
+  /* ADD WEBKIT */
+  transform: rotate(90deg);
+  font-size: 30px;
+  padding: 50px 10px;
+}
+
+footer {
+  background: black;
+  color: white;
+  height: 100px;
+  width: 99%;
+  margin: 0px;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.social {
+  margin-top: -50px;
+  margin-right: 90px;
+  float: right;
+}
+
+.fa-linkedin-in {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.fa-github {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px;
+}
