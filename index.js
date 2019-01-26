@@ -7,10 +7,10 @@ var typewriter = new Typewriter(msg, {
 
 typewriter
   .typeString("hello.")
-  .pauseFor(2000)
+  .pauseFor(500)
   .deleteAll()
   .typeString("my name is Nasya")
-  .pauseFor(2000)
+  .pauseFor(700)
   .deleteAll()
   .start();
 
@@ -20,15 +20,74 @@ typewriter
 
 $(document).ready(function() {
   $("#html-circle").circliful({
-    animation: 1,
-    animationStep: 6,
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
-    percent: 88,
-    iconColor: "#3498DB",
-    icon: "f004",
-    iconSize: "40",
-    iconPosition: "middle"
+    pointSize: 50,
+    percent: 100
+  });
+});
+
+$(document).ready(function() {
+  $("#css-circle").circliful({
+    foregroundBorderWidth: 5,
+    backgroundBorderWidth: 1,
+    percent: 95
+  });
+});
+
+$(document).ready(function() {
+  $("#js-circle").circliful({
+    foregroundBorderWidth: 5,
+    backgroundBorderWidth: 1,
+    percent: 85
+  });
+});
+
+$(document).ready(function() {
+  $("#node-circle").circliful({
+    foregroundBorderWidth: 5,
+    backgroundBorderWidth: 1,
+    percent: 90
+  });
+});
+
+$(document).ready(function() {
+  $("#jquery-circle").circliful({
+    foregroundBorderWidth: 5,
+    backgroundBorderWidth: 1,
+    percent: 85
+  });
+});
+
+$(document).ready(function() {
+  $("#sass-circle").circliful({
+    foregroundBorderWidth: 5,
+    backgroundBorderWidth: 1,
+    percent: 85
+  });
+});
+
+$(document).ready(function() {
+  $("#react-circle").circliful({
+    foregroundBorderWidth: 5,
+    backgroundBorderWidth: 1,
+    percent: 65
+  });
+});
+
+$(document).ready(function() {
+  $("#redux-circle").circliful({
+    foregroundBorderWidth: 5,
+    backgroundBorderWidth: 1,
+    percent: 65
+  });
+});
+
+$(document).ready(function() {
+  $("#boot-circle").circliful({
+    foregroundBorderWidth: 5,
+    backgroundBorderWidth: 1,
+    percent: 90
   });
 });
 

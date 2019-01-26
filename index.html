@@ -3,10 +3,6 @@
   <head>
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
-    <link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
-
-    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="js/jquery.circliful.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Roboto+Mono|ZCOOL+QingKe+HuangYou"
       rel="stylesheet"
@@ -20,7 +16,7 @@
       rel="stylesheet"
     />
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800" rel="stylesheet">
 
     <link
       rel="stylesheet"
@@ -30,61 +26,97 @@
     />
   </head>
   <body>
-      <nav>
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-    <header><div id="msg"></div>
-    </header>
-    <div class="container">
-      <div class="bodyCont">
-        <div class="b1">
-          <p class="sectionHead">Skills</p>
-          <div id="html-circle"></div>
-          <table>
-            <tr>
-              <th>0</th>
-              <th>0</th>
-              <th>0</th>
-              <th>0</th>
-              <th>0</th>
-              <th>0</th>
-              <th>0</th>
-              <th>0</th>
-              <th>0</th>
-            </tr>
-            <tr>
-              <td>
-                <i class="fab fa-html5"></i></td>
-              <td>2</td>
-              <td><i class="fab fa-css3-alt"></i></td>
-              <td>4</td>
-              <td><i class="fab fa-js-square"></i></td>
-              <td>6</td>
-              <td></i> <i class="fab fa-node"></i></td>
-              <td>8</td>
-              <td><img class="jquery" src="jquery.gif" alt="jquery logo" /></td>
-            </tr>
-            <tr>
-              <td>9</td>
-              <td><i class="fab fa-sass"></i></td>
-              <td>11</td>
-              <td><i class="fab fa-react"></i></td>
-              <td>13</td>
-              <td><img class="redux" src="redux.png" alt="redux logo" /></td>
-              <td>15</td>
-              <td><img class="boot" src="bootstrap.png" alt="bootstrap logo" /></td>
-              <td>16</td>
-            </tr>
-          </table>
-          <!-- <p>MongoDB</p>
-          <p>Passport</p> -->
-        </div>
-        <div class="b2"><p class="sectionHead">Projects</p>
+    <!-- NAVIGATION -->
+  <nav>
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <header><div id="msg"></div>
+  </header>
+  <div class="container">
+  <div class="bodyCont">
+
+  <!-- ABOUT  -->
+
+  <div class="b1"><p class="sectionHead">About</p>
+    <img class="aboutPic" src="coverpic.jpeg" alt="picture of me">
+    <div id="description">
+      <p class="name">Nasya Acosta Smith</p>
+      <p class="des1">Front End Web Developer</p>
+      <p class="des2">Description</p>
+    </div>
+  </div>
+      <!-- SKILLS  -->
+  <div class="b2"><p class="sectionHead">Skills</p>
+    <div id="skills-text">
+    <p class="title">Additional Skills</p>
+      <ul>
+        <li>MongoDB & MongoDB Atlas</li>
+        <li>Passport for Authentication</li>
+        <li>Bootstrap 3 & 4</li>
+        <li>ES6</li>
+        <li>Graphic Design</li>
+      </ul>
+    </div>
+
+    <div id="skills">
+    <div id="html-circle" class="html">
+      <i class="fab fa-html5"></i>
+      <br>
+      <p>HTML</p>
+    </div>
+    <div id="css-circle" class="css">
+      <i class="fab fa-css3-alt"></i>
+      <br>
+      <p>CSS</p>
+    </div>
+    <div id="js-circle" class="js">
+      <i class="fab fa-js-square"></i>
+      <br>
+      <p>JavaScript</p>
+    </div>
+    </div>
+
+    <div id="skills">
+    <div id="node-circle" class="node">
+      <i class="fab fa-node"></i>
+      <br>
+    </div> 
+    <div id="jquery-circle" class="jquery">
+      <img class="jquery" src="jquery.gif" alt="jquery logo" />
+      <br>
+    </div>     
+    <div id="sass-circle" class="sass">
+      <i class="fab fa-sass"></i>
+      <br>
+    </div>  
+  </div>
+  
+  <div id="skills">
+    <div id="react-circle" class="react">
+      <i class="fab fa-react"></i>
+      <br>
+      <p>React</p>
+    </div>          
+    <div  id="redux-circle" class="redux">
+      <img class="redux" src="redux.png" alt="redux logo" />
+      <br>
+    </div>        
+    <div id="boot-circle" class="boot">
+      <img class="boot" src="bootstrap.png" alt="bootstrap logo" />
+      <br>
+      <p>Bootstrap</p>
+    </div>          
+  </div> 
+</div>
+
+      <!-- PROJECTS -->
+
+      <div class="b3"><p class="sectionHead">Projects</p>
         <div class="projects">
         <figure class="display overlay">
             <img src="placeholder.jpg" alt="sample33" />
@@ -126,9 +158,9 @@
           </div>
         
         </div>
-        <div class="b3"><p class="sectionHead">About</p>
-        <img class="aboutPic" src="me.jpeg" alt="picture of me">
-        </div>
+
+      <!-- CONTACTS -->
+
         <div class="b4"><p class="sectionHead">Contact</p>
           <div class="formOutline"></div>
         <form action="">
@@ -144,7 +176,7 @@
         </div>
       </div>
     </div>
-    <footer><h3>Footer</h3>
+    <footer><h3>Created by Nasya Acosta Smith</h3>
       <div class="social">
           <a href="#">
             <i class="fab fa-github"></i>
@@ -155,6 +187,10 @@
         </div>
     </footer>
     <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+    <link href="circle.css" rel="stylesheet" type="text/css" />
+
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="circle.js"></script>
     <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
