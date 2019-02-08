@@ -6,13 +6,29 @@ var typewriter = new Typewriter(msg, {
 });
 
 typewriter
-  .typeString("hello.")
-  .pauseFor(500)
-  .deleteAll()
-  .typeString("my name is Nasya")
-  .pauseFor(700)
+  .typeString("hello. my name is Nasya")
   .deleteAll()
   .start();
+
+window.addEventListener("hashchange", function() {
+  scrollBy(0, -100);
+});
+
+// $(window).scroll(function() {
+//   if ($(this).scrollTop() > 900) {
+//     $("header").css({
+//       display: "none"
+//     });
+//   }
+// });
+
+// $(window).scroll(function() {
+//   if ($(this).scrollTop() > 900) {
+//     $("#msg").css({
+//       display: "white"
+//     });
+//   }
+// });
 
 // ------------------
 // PERCENTAGE CIRCLES
@@ -39,7 +55,7 @@ $(document).ready(function() {
   $("#js-circle").circliful({
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
-    percent: 85
+    percent: 70
   });
 });
 
@@ -55,7 +71,7 @@ $(document).ready(function() {
   $("#jquery-circle").circliful({
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
-    percent: 85
+    percent: 75
   });
 });
 
@@ -63,7 +79,7 @@ $(document).ready(function() {
   $("#sass-circle").circliful({
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
-    percent: 85
+    percent: 80
   });
 });
 
@@ -71,7 +87,7 @@ $(document).ready(function() {
   $("#react-circle").circliful({
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
-    percent: 65
+    percent: 70
   });
 });
 
@@ -79,7 +95,7 @@ $(document).ready(function() {
   $("#redux-circle").circliful({
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
-    percent: 65
+    percent: 70
   });
 });
 
@@ -97,4 +113,52 @@ $(document).ready(function() {
 
 $("figure").mouseleave(function() {
   $(this).removeClass("hover");
+});
+
+// -------------
+// TRANSITIONS
+// -------------
+
+ScrollReveal().reveal(".glitch", {
+  delay: 5000,
+  easing: "ease-in"
+});
+
+ScrollReveal().reveal(".arrow", {
+  delay: 6000,
+  distance: "-50px",
+  easing: "ease-in"
+});
+
+ScrollReveal().reveal("nav", {
+  delay: 7000,
+  easing: "ease-in"
+});
+
+ScrollReveal().reveal(".b1", {
+  distance: "50px",
+  origin: "left",
+  delay: 1000,
+  easing: "ease-in"
+});
+
+ScrollReveal().reveal(".b2", {
+  distance: "50px",
+  origin: "right",
+  delay: 400,
+  easing: "ease-in"
+});
+
+ScrollReveal().reveal(".b3", {
+  distance: "50px",
+  origin: "left",
+  delay: 400,
+  easing: "ease-in"
+});
+
+ScrollReveal().reveal(".b4", {
+  distance: "50px",
+  origin: "right",
+  delay: 400,
+  easing: "ease-in"
 });
