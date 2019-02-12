@@ -492,13 +492,18 @@ nav > ul > li:hover {
 #skills p {
   font-family: "Raleway", sans-serif;
   text-align: center;
-  font-size: 11px;
+  font-size: 10px;
+  line-height: 1px;
   margin-top: 5px;
-  margin-bottom: -5px;
+  margin-bottom: -2px;
 }
 
 i {
   font-size: 48px;
+}
+
+.fa-react {
+  margin-bottom: -10px !important;
 }
 
 .jquery {
@@ -517,14 +522,33 @@ i {
 
 .boot {
   margin-top: 0px;
-  margin-bottom: 0px;
   width: 40px;
   height: 40px;
+}
+
+#redux-circle {
+  width: 15%;
+  height: 15%;
+}
+
+#jquery-circle {
+  width: 15%;
+  height: 15%;
+}
+
+#boot-circle {
+  margin-top: 10px;
+  width: 15%;
+  height: 15%;
 }
 
 @media screen and (-ms-high-contrast: active),
   (-ms-high-contrast: none),
   (max-width: 1200px) {
+  .b2 {
+    height: 700px;
+  }
+  /* 
   .jquery {
     width: 75px;
     height: 75px;
@@ -541,10 +565,9 @@ i {
 
   .boot {
     margin-top: 0px;
-    margin-bottom: 0px;
     width: 60px;
     height: 60px;
-  }
+  } */
 }
 
 /* PROJECTS  */
@@ -621,6 +644,7 @@ a {
   width: 80px;
   height: 35px;
   margin-left: 3px;
+  margin-top: 0px;
   font-family: "Raleway", sans-serif;
   font-size: 12px;
   font-weight: 700;
