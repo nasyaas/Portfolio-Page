@@ -10,7 +10,7 @@ body {
   color: #000000;
   font-size: 2.5em;
   margin: 0 auto;
-  padding-top: 40%;
+  padding-top: 25%;
   padding-right: 2px;
   float: right;
   font-family: "Roboto Mono", monospace;
@@ -522,17 +522,30 @@ i {
   height: 40px;
 }
 
-/* @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active),
+  (-ms-high-contrast: none),
+  (max-width: 1200px) {
   .jquery {
-  
+    width: 75px;
+    height: 75px;
+    margin-top: -2px;
+    margin-bottom: 0px;
   }
 
   .redux {
+    margin-top: -5px;
+    margin-bottom: 0px;
+    width: 95px;
+    height: 80px;
   }
 
   .boot {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 60px;
+    height: 60px;
   }
-} */
+}
 
 /* PROJECTS  */
 .b3 {
