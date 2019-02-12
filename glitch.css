@@ -434,7 +434,7 @@ nav > ul > li:hover {
 .b2 {
   background: #fafafa;
   width: 90%;
-  height: 620px !important;
+  height: 650px !important;
   margin-bottom: 200px;
   float: right !important;
 }
@@ -545,7 +545,7 @@ i {
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .b2 {
-    height: 750px !important;
+    height: 800px !important;
   }
 }
 
@@ -615,7 +615,7 @@ a {
 
 .btnContainer {
   width: 95%;
-  margin-top: 2%;
+  margin-top: 5%;
   margin-bottom: 0;
   display: flex;
   flex-wrap: nowrap;

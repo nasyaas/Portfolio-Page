@@ -7,7 +7,7 @@ var typewriter = new Typewriter(msg, {
 
 typewriter
   .typeString("my name is Nasya")
-  .deleteAll()
+  .deleteAll(15)
   .start();
 
 window.addEventListener("hashchange", function() {
@@ -130,7 +130,7 @@ ScrollReveal().reveal("nav", {
 ScrollReveal().reveal(".b1", {
   distance: "50px",
   origin: "left",
-  delay: 800,
+  delay: 400,
   easing: "ease-in"
 });
 
