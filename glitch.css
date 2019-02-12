@@ -615,13 +615,12 @@ a {
 }
 
 .btnContainer {
-  width: 95%;
   margin-top: 15px !important;
-  margin-bottom: 0;
+  margin-top: 5px;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 #link {
@@ -631,7 +630,7 @@ a {
   border: 1px solid #646464;
   border-radius: 5%;
   color: #646464;
-  width: 80px;
+  width: 85px;
   height: 35px;
   margin-top: 0px;
   font-family: "Raleway", sans-serif;
