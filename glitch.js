@@ -7,7 +7,7 @@ var typewriter = new Typewriter(msg, {
 
 typewriter
   .typeString("my name is Nasya")
-  .deleteAll(15)
+  .deleteAll()
   .start();
 
 window.addEventListener("hashchange", function() {

@@ -522,7 +522,6 @@ i {
 
 .boot {
   margin-top: 0px;
-  margin-bottom: 2px;
   width: 40px;
   height: 40px;
 }
@@ -538,7 +537,7 @@ i {
 }
 
 #boot-circle {
-  margin-top: 10px;
+  margin-top: 5px;
   width: 15%;
   height: 15%;
 }
@@ -597,6 +596,7 @@ h2 {
   font-family: "Raleway", sans-serif;
   font-size: 12px;
   text-align: start;
+  margin: 2px;
 }
 
 figure.display * {
@@ -615,7 +615,7 @@ a {
 
 .btnContainer {
   width: 95%;
-  margin-top: 5%;
+  margin-top: 5px;
   margin-bottom: 0;
   display: flex;
   flex-wrap: nowrap;
