@@ -6,7 +6,7 @@ var typewriter = new Typewriter(msg, {
 });
 
 typewriter
-  .typeString("hello. my name is Nasya")
+  .typeString("my name is Nasya")
   .deleteAll()
   .start();
 

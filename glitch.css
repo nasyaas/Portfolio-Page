@@ -545,7 +545,7 @@ i {
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .b2 {
-    height: 720px;
+    height: 750px !important;
   }
 }
 
@@ -614,12 +614,13 @@ a {
 }
 
 .btnContainer {
-  margin-top: 0;
+  width: 95%;
+  margin-top: 2%;
   margin-bottom: 0;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #link {
