@@ -434,7 +434,7 @@ nav > ul > li:hover {
 .b2 {
   background: #fafafa;
   width: 90%;
-  height: 630px;
+  height: 620px !important;
   margin-bottom: 200px;
   float: right !important;
 }
@@ -522,6 +522,7 @@ i {
 
 .boot {
   margin-top: 0px;
+  margin-bottom: 2px;
   width: 40px;
   height: 40px;
 }
@@ -542,32 +543,10 @@ i {
   height: 15%;
 }
 
-@media screen and (-ms-high-contrast: active),
-  (-ms-high-contrast: none),
-  (max-width: 1200px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .b2 {
-    height: 700px;
+    height: 720px;
   }
-  /* 
-  .jquery {
-    width: 75px;
-    height: 75px;
-    margin-top: -2px;
-    margin-bottom: 0px;
-  }
-
-  .redux {
-    margin-top: -5px;
-    margin-bottom: 0px;
-    width: 95px;
-    height: 80px;
-  }
-
-  .boot {
-    margin-top: 0px;
-    width: 60px;
-    height: 60px;
-  } */
 }
 
 /* PROJECTS  */
@@ -634,6 +613,15 @@ a {
   text-decoration: none;
 }
 
+.btnContainer {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 #link {
   text-decoration: none;
   list-style-type: none;
@@ -643,7 +631,6 @@ a {
   color: #646464;
   width: 80px;
   height: 35px;
-  margin-left: 3px;
   margin-top: 0px;
   font-family: "Raleway", sans-serif;
   font-size: 12px;

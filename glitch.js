@@ -107,25 +107,17 @@ $(document).ready(function() {
   });
 });
 
-// ------------
-// IMAGES
-// ------------
-
-$("figure").mouseleave(function() {
-  $(this).removeClass("hover");
-});
-
 // -------------
 // TRANSITIONS
 // -------------
 
 ScrollReveal().reveal(".glitch", {
-  delay: 5000,
+  delay: 6000,
   easing: "ease-in"
 });
 
 ScrollReveal().reveal(".arrow", {
-  delay: 6000,
+  delay: 6500,
   distance: "-50px",
   easing: "ease-in"
 });
@@ -138,7 +130,7 @@ ScrollReveal().reveal("nav", {
 ScrollReveal().reveal(".b1", {
   distance: "50px",
   origin: "left",
-  delay: 1000,
+  delay: 800,
   easing: "ease-in"
 });
 
