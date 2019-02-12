@@ -112,18 +112,18 @@ $(document).ready(function() {
 // -------------
 
 ScrollReveal().reveal(".glitch", {
-  delay: 6000,
+  delay: 5000,
   easing: "ease-in"
 });
 
 ScrollReveal().reveal(".arrow", {
-  delay: 6500,
+  delay: 5500,
   distance: "-50px",
   easing: "ease-in"
 });
 
 ScrollReveal().reveal("nav", {
-  delay: 7000,
+  delay: 6000,
   easing: "ease-in"
 });
 
