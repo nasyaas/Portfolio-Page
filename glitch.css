@@ -596,7 +596,7 @@ h2 {
   font-family: "Raleway", sans-serif;
   font-size: 12px;
   text-align: start;
-  line-height: 15px;
+  line-height: 17px;
   margin: 1px;
 }
 
@@ -616,7 +616,7 @@ a {
 
 .btnContainer {
   width: 95%;
-  margin-top: 5px;
+  margin-top: 15px !important;
   margin-bottom: 0;
   display: flex;
   flex-wrap: nowrap;
