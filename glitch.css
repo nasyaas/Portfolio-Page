@@ -639,6 +639,22 @@ a {
   text-align: center;
 }
 
+@media screen and (max-width: 1418px) {
+  .btnContainer {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  #link {
+    width: 55px;
+    height: 30px;
+    font-size: 10px;
+  }
+  #link > i {
+    font-size: 10px;
+  }
+}
+
 #link:hover {
   background: #646464;
   color: #ffffff;
