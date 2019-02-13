@@ -596,7 +596,7 @@ h2 {
   font-family: "Raleway", sans-serif;
   font-size: 12px;
   text-align: start;
-  line-height: 17px;
+  line-height: 16px;
   margin: 1px;
 }
 
@@ -688,8 +688,10 @@ figure.display.overlay {
 
 .note {
   list-style-type: none;
-  font-size: 13px;
-  padding-top: 5px;
+  font-size: 12px;
+  padding-top: 3px;
+  line-height: 10px;
+  padding-bottom: 0px;
 }
 
 /* CONTACT */
