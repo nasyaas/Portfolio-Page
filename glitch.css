@@ -320,8 +320,8 @@ nav > ul > li:hover {
 }
 
 .aboutPic {
-  width: 340px;
-  height: 340px;
+  width: 335px;
+  height: 335px;
   transform: rotate(25deg);
   margin-top: 140px;
   margin-left: 60px;
@@ -705,15 +705,44 @@ figure.display.overlay {
   float: right !important;
 }
 
-.form {
+#form {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 170px;
   margin-left: 30%;
+  /* background: mistyrose; */
 }
 
-@media screen and (max-width: 850px) {
-  form {
+#form .title {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+  line-height: 2px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1400px) {
+  #form {
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #form {
     margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #form {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #form {
+    margin-left: 15%;
+    margin-right: 20%;
   }
 }
 
